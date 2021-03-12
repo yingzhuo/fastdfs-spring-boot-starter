@@ -32,7 +32,7 @@ import java.util.Arrays;
         WebProperties.class,
         ThumbImageProperties.class
 })
-@ConditionalOnProperty(prefix = "carnival.fastdfs", name = "enabled", havingValue = "true", matchIfMissing = true)
+@ConditionalOnProperty(prefix = "fastdfs", name = "enabled", havingValue = "true", matchIfMissing = true)
 public class FastDfsCoreAutoConfig implements ApplicationContextAware {
 
     @Override

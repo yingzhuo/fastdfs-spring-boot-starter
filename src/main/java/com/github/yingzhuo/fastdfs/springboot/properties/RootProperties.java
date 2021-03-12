@@ -10,7 +10,7 @@ import java.nio.charset.StandardCharsets;
 
 @Getter
 @Setter
-@ConfigurationProperties(prefix = "carnival.fastdfs")
+@ConfigurationProperties(prefix = "fastdfs")
 public class RootProperties implements InitializingBean {
 
     private boolean enabled = true;

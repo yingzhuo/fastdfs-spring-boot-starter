@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Bean;
  * @author 应卓
  */
 @ConditionalOnClass(name = "org.springframework.boot.actuate.endpoint.annotation.Endpoint")
-@ConditionalOnProperty(prefix = "carnival.fastdfs", name = "enabled", havingValue = "true", matchIfMissing = true)
+@ConditionalOnProperty(prefix = "fastdfs", name = "enabled", havingValue = "true", matchIfMissing = true)
 public class FastDfsActuatorAutoConfig {
 
     @Bean

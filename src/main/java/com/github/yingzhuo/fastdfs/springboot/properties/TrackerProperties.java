@@ -14,7 +14,7 @@ import java.util.Objects;
  */
 @Getter
 @Setter
-@ConfigurationProperties(prefix = "carnival.fastdfs.tracker")
+@ConfigurationProperties(prefix = "fastdfs.tracker")
 public class TrackerProperties implements InitializingBean {
 
     private String[] nodes = new String[0];

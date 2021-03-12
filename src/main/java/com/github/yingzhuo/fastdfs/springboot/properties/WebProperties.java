@@ -13,7 +13,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  */
 @Getter
 @Setter
-@ConfigurationProperties(prefix = "carnival.fastdfs.web")
+@ConfigurationProperties(prefix = "fastdfs.web")
 public class WebProperties implements InitializingBean {
 
     private String url = "";

@@ -11,7 +11,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * @author tobato
  * @author 应卓
  */
-@ConfigurationProperties(prefix = "carnival.fastdfs.pool")
+@ConfigurationProperties(prefix = "fastdfs.pool")
 public class PoolProperties extends GenericKeyedObjectPoolConfig<Connection> implements InitializingBean {
 
     /**

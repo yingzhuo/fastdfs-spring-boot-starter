@@ -70,23 +70,6 @@
         <slf4j.version>1.7.30</slf4j.version>
     </properties>
 
-    <dependencyManagement>
-        <!-- spring-boot -->
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-logging</artifactId>
-                <version>${spring.boot.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.apache.logging.log4j</groupId>
-                        <artifactId>log4j-to-slf4j</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
     <dependencies>
         <!-- springboot -->
         <dependency>

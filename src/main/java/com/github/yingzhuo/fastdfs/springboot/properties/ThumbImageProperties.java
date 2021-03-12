@@ -14,7 +14,7 @@ import java.io.Serializable;
  */
 @Getter
 @Setter
-@ConfigurationProperties(prefix = "carnival.fastdfs.thumb-image")
+@ConfigurationProperties(prefix = "fastdfs.thumb-image")
 public class ThumbImageProperties implements Serializable, InitializingBean {
 
     private int defaultWidth;
